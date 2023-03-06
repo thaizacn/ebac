@@ -1,0 +1,29 @@
+package br.com.ebac.projetogeladeira;
+
+/**
+ * 
+ * @author thaizacn
+ *
+ */
+public class Main {
+	
+	/**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        //Criei o Objeto chamando o contrutor vazio
+        //Contrui o primeiro objeto
+        Geladeira novaGeladeira = new Geladeira();
+        System.out.println(novaGeladeira.getCor());
+        
+        String modelo = novaGeladeira.setModelo("Frost Free Inverse");
+        
+        
+        double capacidade = novaGeladeira.getCapacidade();
+        System.out.println(String.valueOf(capacidade));
+        
+        novaGeladeira.setCapacidade(40.5);
+        System.out.println(String.valueOf(novaGeladeira.getCapacidade()));
+    }
+
+}

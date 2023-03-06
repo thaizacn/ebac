@@ -1,0 +1,8 @@
+package br.com.geladeira;
+
+public class Refrigerador {
+	
+	String verduras;
+	
+
+}

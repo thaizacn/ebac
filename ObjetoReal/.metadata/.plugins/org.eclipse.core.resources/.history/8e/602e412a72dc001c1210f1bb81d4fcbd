@@ -1,0 +1,28 @@
+package br.com.model;
+
+public class CompartimentosMochila {
+	
+	String bolsoPrincial;
+	String bolsoParaAgua;
+	Integer zíper;
+	
+	public String getBolsoPrincial() {
+		return bolsoPrincial;
+	}
+	public void setBolsoPrincial(String bolsoPrincial) {
+		this.bolsoPrincial = bolsoPrincial;
+	}
+	public String getBolsoParaAgua() {
+		return bolsoParaAgua;
+	}
+	public void setBolsoParaAgua(String bolsoParaAgua) {
+		this.bolsoParaAgua = bolsoParaAgua;
+	}
+	public Integer getZíper() {
+		return zíper;
+	}
+	public void setZíper(Integer zíper) {
+		this.zíper = zíper;
+	}
+	
+}

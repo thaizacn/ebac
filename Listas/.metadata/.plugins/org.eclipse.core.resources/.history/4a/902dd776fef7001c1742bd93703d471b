@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class OrganizaListaPorSexo {
+	
+	public static void main(String[] args) {
+
+		Scanner notas = new Scanner(System.in);
+		System.out.println("Digite a primeira nota: ");
+		int nota1 = notas.nextInt();
+		
+	}
+
+}

@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class OrganizaListaPorSexo {
+	
+	public static void main(String[] args) {
+
+		Scanner nomeESexo = new Scanner(System.in);
+		System.out.println("Diga seu nome e seu sexo: ");
+		String nomeESexo1 = nomeESexo.nextInt();
+		
+	}
+
+}

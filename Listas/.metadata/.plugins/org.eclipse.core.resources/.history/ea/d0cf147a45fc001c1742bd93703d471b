@@ -1,0 +1,27 @@
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+public class OrganizaListaPorSexo {
+	
+	public static void main(String[] args) {
+		listaPessoas();	
+	}
+	
+
+
+    private static void listaPessoas() {
+    	System.out.println("****** LISTA DE PESSOAS E SEU RESPECTIVO SEXO ******");
+        List<PessoasESexo> lista = new ArrayList<PessoasESexo>();
+
+        PessoasESexo a = new PessoasESexo("João Pedro", "Masculino");
+        PessoasESexo b = new PessoasESexo("Clara Maria", "Feminino");
+        PessoasESexo c = new PessoasESexo("Lúcia Ferreira", "Feminino");
+        lista.add(a);
+        lista.add(b);
+        lista.add(c);
+        System.out.println(lista);
+
+    }
+
+}

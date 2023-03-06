@@ -1,0 +1,17 @@
+package br.com.notas.ecolares;
+
+import java.util.Scanner;
+
+public class CalculoDeMedias {
+	
+	
+	public static void main(String[] args) {
+		
+		Scanner notas = new Scanner(System.in);
+		System.out.println("Digite a primeira notas: ");
+		
+		
+
+	}
+
+}

@@ -1,0 +1,9 @@
+package br.com.notas.ecolares;
+
+import java.util.Scanner;
+
+public class CalculoDeMedias {
+	
+	Scanner notas = new Scanner(System.in);
+
+}

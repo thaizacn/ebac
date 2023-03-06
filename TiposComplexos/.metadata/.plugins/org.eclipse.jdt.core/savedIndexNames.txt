@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\thaiz\OneDrive\Documentos\GITHUB\EBAC_TiposComplexos\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+2134923738.index
+2697880258.index

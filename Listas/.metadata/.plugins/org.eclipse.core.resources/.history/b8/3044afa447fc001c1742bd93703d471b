@@ -1,0 +1,26 @@
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class OrganizaListaPorSexo {
+	
+	public static void main(String[] args) {
+        Scanner f = new Scanner(System.in);
+        List<PessoasESexo> listFemale = new ArrayList<>();
+        List<PessoasESexo> listMale = new ArrayList<>();
+
+        System.out.println("Por favor, insita seu nome: ");
+        PessoasESexo n = new PessoasESexo(n.next());
+        System.out.println("Por favor, insita seu sexo: ");
+        PessoasESexo a = new PessoasESexo(n.next(), f.next());
+        if (a.getSexo().equalsIgnoreCase("Feminino")) {
+            listFemale.add(a);
+        } else {
+            listMale.add(a);
+        }
+        
+        System.out.println("Lista de mulheres: " + listFemale + "\n");
+        System.out.println("Lista de homens: " + listMale);
+    }
+
+}

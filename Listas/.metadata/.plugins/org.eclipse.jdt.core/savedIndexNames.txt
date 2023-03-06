@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+C:\Users\thaiz\OneDrive\Documentos\GITHUB\Organiza_Por_Genero\.metadata\.plugins\org.eclipse.jdt.core
+2697880258.index
+1865797976.index
+4257062783.index
+3513923706.index

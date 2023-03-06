@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class Wrappers {
+	
+	public static void main(String[] args) {
+
+		Scanner notas = new Scanner(System.in);
+		System.out.println("Digite um valor numérico: ");
+		int valorPrimitivo = notas.nextInt();
+		Integer valorWrapper = valorPrimitivo;
+		
+	}
+
+}

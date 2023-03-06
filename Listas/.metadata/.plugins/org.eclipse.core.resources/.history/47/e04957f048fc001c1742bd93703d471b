@@ -1,0 +1,30 @@
+
+public class PessoasEGenero {
+	
+	private String nome;
+	private String genero;
+	
+	public PessoasEGenero(String nome, String sexo){
+		this.nome = nome;
+		this.genero = sexo;
+	}
+	
+	public String getNome() {
+		return nome;
+	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	public String getSexo() {
+		return genero;
+	}
+	public void setSexo(String sexo) {
+		this.genero = sexo;
+	}
+
+	@Override
+	public String toString() {
+		return "PessoasESexo [nome=" + nome + ", sexo=" + genero + "]";
+	}
+	
+}

@@ -1,0 +1,42 @@
+package br.com.model;
+
+/**
+ * 
+ * @author thaizacn
+ *
+ */
+public class CompartimentosMochila {
+	
+	String corDaMochila = "verde";
+	String bolsoPrincial;
+	String bolsoParaAgua;
+	
+	public String getBolsoPrincial() {
+		return bolsoPrincial;
+	}
+	
+	public void setBolsoPrincial(String bolsoPrincial) {
+		this.bolsoPrincial = bolsoPrincial;
+	}
+	
+	public String getBolsoParaAgua() {
+		return bolsoParaAgua;
+	}
+	
+	public void setBolsoParaAgua(String bolsoParaAgua) {
+		this.bolsoParaAgua = bolsoParaAgua;
+	}
+	
+	/**
+	 * 
+	 * @param bolsoPrincial
+	 */
+	public void abrirBolsoPrincipal(String bolsoPrincial) {
+		setBolsoPrincial(bolsoPrincial);
+	}
+	
+	public void guardarAgua(String bolsoParaAgua) {
+		setBolsoParaAgua(bolsoParaAgua);
+	}
+	
+}

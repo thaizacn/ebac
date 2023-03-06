@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;SeparaSexo&apos; to &apos;SeparaPorGenero&apos;&#x0D;&#x0A;- Original project: &apos;TrabalhandoComColecoes&apos;&#x0D;&#x0A;- Original element: &apos;SeparaSexo&apos;&#x0D;&#x0A;- Renamed element: &apos;SeparaPorGenero&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;SeparaSexo&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{SeparaSexo.java[SeparaSexo" matchStrategy="1" name="SeparaPorGenero" qualified="false" references="true" similarDeclarations="false" stamp="1660449489683" textual="false" version="1.0"/>
+</session>
